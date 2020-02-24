@@ -1,3 +1,20 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* colour standardization */
+
+$bgrd_colour: FloralWhite;
+$text_colour: Black;
+
+
+/* static pages body */
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 1em;
+    color: $text_colour;
+    background-color: $bgrd_colour;
+    margin: 0;
+    padding: 0; 
+}
+
+#body_contents {
+    padding: 8px;
+}

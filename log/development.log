@@ -123,3 +123,142 @@ Processing by StaticPagesController#getinvolved as HTML
 Completed 200 OK in 16ms (Views: 15.1ms)
 
 
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-21 15:13:03 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 385ms (Views: 220.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:13:07 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 17ms (Views: 16.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2020-02-21 15:13:07 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 17ms (Views: 16.3ms)
+
+
+Started GET "/gardens" for 127.0.0.1 at 2020-02-21 15:13:08 -0600
+Processing by StaticPagesController#gardens as HTML
+  Rendering static_pages/gardens.html.erb within layouts/application
+  Rendered static_pages/gardens.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 19ms (Views: 17.9ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-21 15:13:09 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 20ms (Views: 19.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:19:40 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 454ms (Views: 290.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:20:58 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 419ms (Views: 262.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:34:20 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 410ms
+
+
+  
+ActionView::Template::Error (Undefined variable: "$std_green_colour".):
+    4:     <title><%= expanded_title(yield(:title))%></title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <%= render 'layouts/shim' %>
+   10:   </head>
+  
+app/assets/stylesheets/header.scss:13
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1501544415115174478_70129061767540'
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:38:05 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 448ms (Views: 293.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:44:49 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 488ms (Views: 322.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:45:05 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 452ms (Views: 284.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:47:48 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 428ms (Views: 271.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:50:47 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 443ms (Views: 264.0ms)
+
+
