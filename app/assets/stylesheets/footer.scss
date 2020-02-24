@@ -1,0 +1,19 @@
+/* footer */
+
+$std_green: YellowGreen;
+
+#footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: $std_green;
+}
+
+#footer p{
+    font-size: 0.5em;
+}
+
+
