@@ -1,8 +1,8 @@
 <header id="header">
-    <div id="logo">
+    <%=link_to root_path, :id => 'logo' do %>
         <%= image_tag("grinnell_name.png", alt:'Grinnell')%>
         <h1>Giving Gardens</h1>
-    </div>
+    <% end %>
     <nav>
         <div id="navbar">
             <ul>
