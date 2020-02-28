@@ -1,0 +1,326 @@
+Started GET "/" for ::1 at 2020-02-19 15:29:06 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/pinkavat/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/pinkavat/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 249ms (Views: 7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-19 15:54:14 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/pinkavat/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/pinkavat/.rbenv/versions/2.6.5/lib/ruby/gems/2.6.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 197ms (Views: 9.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:04:24 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (273.3ms)
+Completed 500 Internal Server Error in 1073ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `glyphs_path' for #<#<Class:0x00007fbd8a535e18>:0x00007fbd8c088cb0>):
+    4:             <ul>
+    5:                 <li><%= link_to "Home", home_path, :class => ('navCurrentLink' if (current_page?(home_path) or current_page?(root_path)))%></li>
+    6:                 <li><%= link_to "About", about_path, :class => ('navCurrentLink' if current_page?(about_path))%></li>
+    7:                 <li><%= link_to "Gardens", glyphs_path, :class => ('navCurrentLink' if current_page?(glyphs_path))%></li>
+    8:             </ul>
+    9:         </div>
+   10:     </nav>
+  
+app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__2226536300011851400_70226057671420'
+app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___446491282732587265_70226022306000'
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:05:30 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 393ms (Views: 218.9ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:05:33 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 17ms (Views: 15.1ms)
+
+
+Started GET "/gardens" for 127.0.0.1 at 2020-02-21 15:05:34 -0600
+Processing by StaticPagesController#gardens as HTML
+  Rendering static_pages/gardens.html.erb within layouts/application
+  Rendered static_pages/gardens.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 20ms (Views: 17.8ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-21 15:05:35 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 200 OK in 23ms (Views: 21.1ms)
+
+
+Started GET "/gardens" for 127.0.0.1 at 2020-02-21 15:05:36 -0600
+Processing by StaticPagesController#gardens as HTML
+  Rendering static_pages/gardens.html.erb within layouts/application
+  Rendered static_pages/gardens.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 20ms (Views: 18.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:05:40 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 19ms (Views: 18.2ms)
+
+
+Started GET "/gardens" for 127.0.0.1 at 2020-02-21 15:05:41 -0600
+Processing by StaticPagesController#gardens as HTML
+  Rendering static_pages/gardens.html.erb within layouts/application
+  Rendered static_pages/gardens.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 21ms (Views: 19.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2020-02-21 15:05:42 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 24ms (Views: 22.6ms)
+
+
+Started GET "/gardens" for 127.0.0.1 at 2020-02-21 15:06:16 -0600
+Processing by StaticPagesController#gardens as HTML
+  Rendering static_pages/gardens.html.erb within layouts/application
+  Rendered static_pages/gardens.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 21ms (Views: 19.0ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-21 15:06:18 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 16ms (Views: 15.1ms)
+
+
+<<<<<<< HEAD
+=======
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:32:12 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 554ms (Views: 364.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-21 15:40:21 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 200 OK in 483ms (Views: 290.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:40:23 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 33ms (Views: 29.3ms)
+
+
+Started GET "/gardens" for 127.0.0.1 at 2020-02-21 15:40:25 -0600
+Processing by StaticPagesController#gardens as HTML
+  Rendering static_pages/gardens.html.erb within layouts/application
+  Rendered static_pages/gardens.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 27ms (Views: 21.9ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-21 15:40:26 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 26ms (Views: 24.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2020-02-21 15:40:26 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 23ms (Views: 21.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:40:27 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 29ms (Views: 28.1ms)
+
+
+Started GET "/gardens" for 127.0.0.1 at 2020-02-21 15:40:28 -0600
+Processing by StaticPagesController#gardens as HTML
+  Rendering static_pages/gardens.html.erb within layouts/application
+  Rendered static_pages/gardens.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 27ms (Views: 24.9ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-21 15:40:28 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 45ms (Views: 43.8ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:40:29 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 26ms (Views: 24.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2020-02-21 15:40:29 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 34ms (Views: 31.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:40:30 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 47ms (Views: 45.8ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2020-02-21 15:40:30 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 31.7ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:40:31 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 31ms (Views: 29.2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-21 15:40:56 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 24.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-02-27 17:04:45 -0600
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 397ms (Views: 222.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2020-02-27 17:05:30 -0600
+Processing by StaticPagesController#about as HTML
+  Rendering static_pages/about.html.erb within layouts/application
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 26ms (Views: 24.6ms)
+
+
+Started GET "/gardens" for 127.0.0.1 at 2020-02-27 17:05:31 -0600
+Processing by StaticPagesController#gardens as HTML
+  Rendering static_pages/gardens.html.erb within layouts/application
+  Rendered static_pages/gardens.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 32.5ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-27 17:05:33 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 31ms (Views: 29.5ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-27 17:32:14 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+Completed 200 OK in 49ms (Views: 43.5ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-27 17:34:52 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 23ms (Views: 21.4ms)
+
+
+Started GET "/getinvolved" for 127.0.0.1 at 2020-02-27 18:47:06 -0600
+Processing by StaticPagesController#getinvolved as HTML
+  Rendering static_pages/getinvolved.html.erb within layouts/application
+  Rendered static_pages/getinvolved.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (3.6ms)
+Completed 200 OK in 68ms (Views: 59.5ms)
+>>>>>>> ramay_volunteers
+
+
