@@ -1,0 +1,18 @@
+/* footer */
+
+$footer_gray: LightGray;
+
+#footer {
+    flex-shrink: 0;
+    padding: 0;
+    margin: 8px;
+    max-width: 100%;
+}
+
+#footer p{
+    font-size: 0.5em;
+    border-top: 1px solid $footer_gray;
+    color: $footer_gray
+}
+
+
