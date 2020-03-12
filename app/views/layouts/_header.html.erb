@@ -8,7 +8,7 @@
             <ul>
                 <li><%= link_to "Home", home_path, :class => ('navCurrentLink' if (current_page?(home_path) or current_page?(root_path)))%></li>
                 <li><%= link_to "About", about_path, :class => ('navCurrentLink' if current_page?(about_path))%></li>
-                <li><%= link_to "Gardens", gardens_path, :class => ('navCurrentLink' if current_page?(gardens_path))%></li>
+                <li><%= link_to "Locations", gardens_path, :class => ('navCurrentLink' if current_page?(gardens_path))%></li>
                 <li><%= link_to "Get Involved", getinvolved_path, :class => ('navCurrentLink' if current_page?(getinvolved_path))%></li>
             </ul>
         </div>
