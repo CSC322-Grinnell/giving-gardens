@@ -17,4 +17,9 @@ $footer_gray: LightGray;
     padding: 4px 0px 0px 0px;
 }
 
-
+#footer a{
+    color: $footer_gray;
+    &:visited {
+        color: $footer_gray;
+    }
+}
