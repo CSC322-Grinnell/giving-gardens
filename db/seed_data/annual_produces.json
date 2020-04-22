@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Rice",
+    "duration": "31"
+  },
+  {
+    "name": "Maize",
+    "duration": "60"
+  },
+  {
+    "name": "Pea",
+    "duration": "15"
+  },
+  {
+    "name": "Watermelon",
+    "duration": "180"
+  },
+  {
+    "name": "Chickweed",
+    "duration": "24"
+  }
+]
