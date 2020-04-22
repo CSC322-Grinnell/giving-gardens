@@ -12,7 +12,16 @@ class UsersController < ApplicationController
 
 
     def create
-        render 'temp'
+        @user = User.new(user_params)
+        if @user.save
+            # User created successfully
+            render 'temp' # TODO redirect to user page
+            # I think bcrypt is auto-digesting the password here, but without being asked, which is creepy
+            # TODO find out what's going on
+        else
+            # User could not be created
+            render 'new'
+        end
     end
 
 
@@ -34,4 +43,9 @@ class UsersController < ApplicationController
     def destroy
         render 'temp'
     end
+
+    private
+        def user_params
+            params.require(:user).permit(:email, :password, :password_confirmation)
+        end
 end
