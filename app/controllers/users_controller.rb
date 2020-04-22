@@ -6,7 +6,8 @@ class UsersController < ApplicationController
 
 
     def new
-        render 'temp'
+        @user = User.new
+        render 'new'
     end
 
 
