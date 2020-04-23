@@ -1,0 +1,17 @@
+<h3>Sign Up:</h3>
+
+<%= form_with model: @user, local: true, builder: LabellingFormBuilder do |f| %>
+    <%= f.text_field :email, placeholder: 'E-mail'%>
+    <%= f.password_field :password, placeholder: 'Password'%>
+    <%= f.password_field :password_confirmation, placeholder: 'Confirm Password' %>
+    <%= f.submit "Sign Up" %>
+<% end %>
+
+
+<% if @user.errors.any? %>
+    <ul class="errors_list">
+        <% @user.errors.full_messages.each do |msg| %>
+            <%= content_tag(:li, msg)%>
+        <% end %>
+    </ul>
+<% end %>
