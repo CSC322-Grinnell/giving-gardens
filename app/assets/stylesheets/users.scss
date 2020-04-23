@@ -1,3 +1,48 @@
-// Place all the styles related to the Users controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* user signup form */
+
+$std_green: OliveDrab;
+$bgrd_colour: FloralWhite;
+
+form {
+    display: block;
+    background-color: $std_green;
+    box-shadow: 0px 5px 4px LightGray;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+label {
+    display: none;
+}
+
+input[type=text],input[type=password]{
+    display: block;
+    border-radius: 2px;
+    border: none;
+    font-size: 1em;
+    margin: 5px auto 10px auto;
+    padding: 5px;
+    outline: none;
+    max-width: 60%;
+    width: 60%;
+    background-color: #EEEEEE;
+    &:focus {
+        background-color: #FFFFFF;
+    };
+}
+
+.errors_list {
+    list-style-type: circle;
+    border: 1px solid DarkRed;
+    background-color: LightCoral;
+    margin: 20px;
+}
+
+.errors_list li {
+    color: DarkRed;
+    font-size: 1em;
+    margin: 5px;
+}

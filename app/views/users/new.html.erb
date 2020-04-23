@@ -7,8 +7,11 @@
     <%= f.submit "Sign Up" %>
 <% end %>
 
-<ul>
-    <% @user.errors.full_messages.each do |msg| %>
-        <%= content_tag(:li, msg)%>
-    <% end %>
-</ul>
+
+<% if @user.errors.any? %>
+    <ul class="errors_list">
+        <% @user.errors.full_messages.each do |msg| %>
+            <%= content_tag(:li, msg)%>
+        <% end %>
+    </ul>
+<% end %>
